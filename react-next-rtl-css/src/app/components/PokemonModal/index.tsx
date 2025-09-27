@@ -12,8 +12,6 @@ type PokemonModalProps = {
 const PokemonModal: React.FC<PokemonModalProps> = ({ isOpen, onClose, pokemon }) => {
     if (!pokemon) return null;
 
-    console.log(pokemon);
-
     const [displayShiny, setDisplayShiny] = React.useState(false);
 
     const getAllTypes = (): string[] | null => {
