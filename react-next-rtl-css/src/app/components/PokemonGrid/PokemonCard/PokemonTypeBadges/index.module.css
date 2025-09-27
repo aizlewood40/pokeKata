@@ -1,0 +1,91 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.typeBadge {
+    padding: 5px 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    display: inline-block;
+    margin-right: 5px;
+    border: #000000 1px solid;
+    height: fit-content;
+}
+
+.normal {
+    background-color: #A8A77A;
+}
+
+.poison {
+    background: #a100f2;
+}
+
+.electric {
+   background: #f2e600;
+}
+
+.water {
+    background: #00c3ff;
+}
+
+.fire {
+    background: #ff0000;
+}
+
+.grass {
+    background: #00ff00;
+}
+
+.fairy {
+    background: #ff00ff;
+}
+
+.fighting {
+    background: #ff8000;
+}
+
+.rock {
+    background: #bfbfbf;
+}
+
+.ice {
+    background: #00ffff;
+}
+
+.ground {
+    background: #e6b800;
+}
+
+.psychic {
+    background: #ff66cc;
+}
+
+.bug {
+    background: #a6b91a;
+}
+
+.dragon {
+    background: #7038f8;
+}
+
+.dark {
+    background: #705746;
+}
+
+.flying {
+    background: #a98ff3;
+}
+
+.ghost {
+    background: #705898;
+}
+
+.steel {
+    background: #b7b7ce;
+}
